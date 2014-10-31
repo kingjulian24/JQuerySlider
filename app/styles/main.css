@@ -1,0 +1,35 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+.slider{
+  width: 600px;
+  overflow: hidden;
+  margin: 50px auto;
+}
+
+.slider ul{
+  width: 10000px;
+}
+.slider ul li{
+  display: inline;
+  float:left;
+}
+.slider ul li .slide{
+  width:600px;
+  height: 450px;
+  background: red;
+  font-size: 30px;
+  text-align: center;
+}
+.nav{
+  clear:both;
+  margin: auto;
+  padding-top: 10px;
+  width: 210px;
+}
+
+.nav button{
+  width: 100px;
+}
