@@ -19,9 +19,21 @@
 .slider ul li .slide{
   width:600px;
   height: 450px;
-  background: red;
   font-size: 30px;
   text-align: center;
+}
+.slide{
+  padding-top: 150px;
+}
+
+.slider h2 {
+  font-size:2em;
+}
+li {
+  background: red;
+}
+li:nth-child(2n){
+  background: yellow;
 }
 .nav{
   clear:both;
